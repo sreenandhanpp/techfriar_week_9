@@ -1,0 +1,12 @@
+{
+  "name": "week-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

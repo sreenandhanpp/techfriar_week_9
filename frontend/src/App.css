@@ -1,0 +1,25 @@
+:root {
+  --background-color: #128c7e;
+  --container-background: #075e54;
+  --button-background: #25d366;
+  --button-hover: #128c7e;
+  --text-color: #fff;
+  --input-background: #fff; /* Added input background color */
+  --input-text-color: #000; /* Added input text color */
+  --error-color: #ff0000;
+  --loader-color: #25d366;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+textarea, input:focus {
+  outline: none;
+}
+
+

@@ -1,0 +1,5 @@
+.alert{
+    color: var(--error-color);
+    margin: 10px;
+    padding: 0;
+}
