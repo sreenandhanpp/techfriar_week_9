@@ -80,6 +80,7 @@ module.exports = {
             resolve(resp);
           })
           .catch((err) => {
+            console.log(err)
             reject("Something went wrong");
           });
       } catch (error) {

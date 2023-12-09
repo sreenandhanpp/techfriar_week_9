@@ -1,4 +1,4 @@
-import { Route, Navigate, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { getItem } from '../../localStorage/getItem';
 
 const useAuth = () => {
@@ -13,7 +13,7 @@ const useAuth = () => {
 }
 const UserRoute = () => {
     const auth = useAuth();
-    return auth ? <Outlet /> : <Navigate to={'/'} />
+    return auth ? <Outlet/> : <Navigate to={'/signin'} />
 };
 
 export default UserRoute;
