@@ -77,6 +77,7 @@ const Dashboard = () => {
                     dispatch({ type: USER.FETCH_ALL_USERS_SUCCESS, payload: filteredUsers });
                 })
                 .catch((error) => {
+                    console.log(error)
                     dispatch({ type: USER.FETCH_ALL_USERS_FAILED, payload: error.response.data.message });
                     toast.error("something went wrong on fetching users", {
                         position: toast.POSITION.BOTTOM_CENTER,

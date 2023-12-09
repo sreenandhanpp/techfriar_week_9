@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path='/signin' element={<PublicRoute />} >
+        <Route exact path='/signup' element={<PublicRoute />} >
           <Route exact path='/signup' element={<SignUp />} />
         </Route>
 
